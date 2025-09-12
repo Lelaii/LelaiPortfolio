@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lelai | Developer Portfolio</title>
 
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="/css/styles.css">
     </head>
 
     <body>
@@ -23,11 +23,36 @@
             </ul>
         </nav>
 
-        <div class="self-intro" id="self-intro">
+        <div class="intro-grid-container" id="dev-intro">
+
+            <div class="intro-grid-2">
+
+                <div class="intro-container">
+                    <h1>UI/UX Designer<br> and Front-End Developer </h1> 
+                    
+
+                    <p class="descriptions"> 
+                        I am an aspiring Web Graphic Designer from the Philippines, <br>
+                        I am passionate about Graphic Designs and Web Development. <br>
+                        Ready to bring your vision to life with my creative design architectures! <br>
+                    </p>
+
+                    <br>
+                        
+                    <button class="downloadButton" id="downloadButton">Download CV</button>
+                </div>
+
+                <div class="intro-container">
+                    <img src="images/profile.jpg">
+                </div>
+
+            </div>
+            </div>
+        
+        <!-- <div class="self-intro" id="self-intro">
             <div>
-                <span class="greetings"> Ready to Innovate?</span>
                 
-                <h1> Hi, I'm a UI/UX Designer<br> and Front End Developer </h1> 
+                <h1>UI/UX Designer<br> and Front-End Developer </h1> 
                     
                 <p class="descriptions"> 
                     I am an aspiring Web Graphic Designer from the Philippines, <br>
@@ -42,30 +67,15 @@
                 <button class="see-my-works-button" id="scrollToDiv"> Contact Me  
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </button>
-
-                        <!-- JS for scroll button -->
-                        <script>
-                            function scrollToDiv() {
-                                // Get the target div by ID
-                                const portfolio = document.getElementById("portfolio");
-                    
-                                // Scroll to the target div
-                                portfolio.scrollIntoView({
-                                    behavior: "smooth",  // Smooth scrolling effect
-                                    block: "center"      // Align the div to the center of the view
-                                });
-                            }
-                        </script>
-
-            </div>
+            </div> -->
             
-            <div class="opening">
+            <!-- <div class="opening">
                 <script 
                     src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module">
                 </script>
 
                 <dotlottie-player src="https://lottie.host/8d90c016-575b-41c5-8186-b3ec53e5acaf/ysNCkW3qqU.lottie" background="transparent" speed="1" style="width: 600px; height: 600px" loop autoplay></dotlottie-player>
-            </div>
+            </div> -->
 
         </div>
 
@@ -161,7 +171,7 @@
 
                     <br>
                         
-                    <button class="downloadButton" id="downloadButton">Download CV</button>
+                    <!-- <button class="downloadButton" id="downloadButton">Download CV</button> -->
     
                         <script>
                             document.getElementById("downloadButton").addEventListener("click", function () {
@@ -172,7 +182,7 @@
                                 link.href = "https://drive.google.com/file/d/18N-k8jsbuyS8wToUuKTEnxzzAtmFuzZq/view?usp=drive_link"; // Replace with your file URL
                     
                                 // Set the download attribute with a default file name
-                                link.download = "https://drive.google.com/file/d/18N-k8jsbuyS8wToUuKTEnxzzAtmFuzZq/view?usp=drive_link"; // Replace with your desired file name
+                                link.download = "https://drive.google.com/file/d/1GN6cUrkOLnzpnDT1WFV7lH0vi2M9AgFr/view"; // Replace with your desired file name
                     
                                 // Trigger the download
                                 link.click();
@@ -180,7 +190,7 @@
                         </script> 
                 </div>
 
-                <div class="about-container">
+                <div class="intro-container">
                     <img src="images/profile.jpg">
                 </div>
 
