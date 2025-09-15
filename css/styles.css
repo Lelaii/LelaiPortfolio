@@ -619,6 +619,7 @@ h1{
   background-image: url(/images/HoverFrame.png);
   max-width: 100%;
   height: auto;
+  /* background-size: cover; */
 }
 
 .portfolio-container img{
