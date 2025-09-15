@@ -613,7 +613,12 @@ h1{
 }
 
 .portfolio-container:hover {
-  transform: scale(1.2); /* 10% larger */
+  transform: scale(1.2); 
+  /* 10% larger */
+
+  background-image: url(/images/HoverFrame.png);
+  max-width: 100%;
+  height: auto;
 }
 
 .portfolio-container img{
